@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.6" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="grupo_pesquisa">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[2147, 2147]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1148, 674]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="scroll_painel_fundo" alignment="0" pref="1250" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="scroll_painel_fundo" alignment="1" pref="633" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="scroll_painel_fundo">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painel_fundo">
+          <Properties>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[1148, 674]"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="atualizacaoPedidos" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="painel_lista_pedido" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="painel_pesquisa" min="-2" pref="160" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="painel_dados_pedidos2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="atualizacaoPedidos" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="painel_pesquisa" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="painel_lista_pedido" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="painel_dados_pedidos2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="1803" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="atualizacaoPedidos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Atualizar e Deletar Pedido"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="painel_lista_pedido">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Lista de Pedidos">
+                      <Font PropertyName="font" name="Tahoma" size="13" style="1"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane1" pref="1016" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" pref="151" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="tbl_lista_pedido">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                          <Connection code="new javax.swing.table.DefaultTableModel(&#xa;    new Object [][] {&#xa;&#xa;    },&#xa;    new String [] {&#xa;&#xa;    }&#xa;)&#xa;{&#xa;    public boolean isCellEditable(int row, int column){return false;}&#xa;}&#xa;" type="code"/>
+                        </Property>
+                        <Property name="selectionModel" type="javax.swing.ListSelectionModel" editor="org.netbeans.modules.form.editors2.JTableSelectionModelEditor">
+                          <JTableSelectionModel selectionMode="0"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tbl_lista_pedidoMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="painel_dados_pedidos2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Dados do Pedido">
+                      <Font PropertyName="font" name="Tahoma" size="13" style="1"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jSeparator7" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jSeparator8" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lbl_enderecoFatura" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lbl_enderecoEntrega" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSeparator9" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="lbl_dtPedido" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                                                  <Component id="txt_dtPedido" min="-2" pref="111" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="lbl_codigoPedido" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txt_codigoPedido" min="-2" pref="108" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="lbl_dtEnvio" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="calendar_dtEnvio" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="lbl_codigoCliente" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                  <Component id="txt_codigoCliente" min="-2" pref="107" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lbl_nomeTransportadora" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txt_nomeTransportadora" min="-2" pref="198" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lbl_nomeCliente2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                  <Component id="txt_nomeCliente" min="-2" pref="130" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="lbl_codigoVendedor" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txt_codigoVendedor" min="-2" pref="81" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txt_nomeVendedor" min="-2" pref="148" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_codigoEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_codigoEnderecoEntrega" min="-2" pref="89" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                          <Component id="lbl_logradouroEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                          <Component id="txt_logradouroEnderecoEntrega" min="-2" pref="192" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="lbl_complementoEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Component id="txt_complementoEnderecoEntrega" min="-2" pref="88" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                                                          <Component id="lbl_estadoEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_estadoEnderecoEntrega" min="-2" pref="150" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                                          <Component id="lbl_paisEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Component id="txt_paisEnderecoEntrega" min="-2" pref="135" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="lbl_cepEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_cepEnderecoEntrega" min="-2" pref="119" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_cidadeEnderecoEntrega2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_cidadeEnderecoEntrega" min="-2" pref="187" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="lbl_codigoEnderecoFatura2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txt_codigoEnderecoFatura" min="-2" pref="92" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_estadoEnderecoFatura2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_estadoEnderecoFatura" min="-2" pref="149" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_logradouroEnderecoFatura2" min="-2" pref="67" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_logradouroEnderecoFatura" min="-2" pref="194" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_paisEnderecoFatura2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_paisEnderecoFatura" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_complementoEnderecoFatura2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Component id="txt_complementoEnderecoFatura" min="-2" pref="86" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="lbl_cepEnderecoFatura2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_cepEnderecoFatura" min="-2" pref="120" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="lbl_cidadeEnderecoFatura2" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="txt_cidadeEnderecoFatura" min="-2" pref="156" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="btn_deletarPedido" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btn_atualizarPedido" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="195" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl_nomeCliente2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_nomeCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_codigoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_codigoCliente" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_nomeVendedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_codigoPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_codigoPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_codigoVendedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_codigoVendedor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_nomeTransportadora" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_nomeTransportadora" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_dtEnvio" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_dtPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_dtPedido" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="calendar_dtEnvio" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator7" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_enderecoFatura" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl_codigoEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_codigoEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_logradouroEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_logradouroEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_complementoEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_complementoEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_cidadeEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_cidadeEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_cepEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_cepEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_paisEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_paisEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_estadoEnderecoFatura2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_estadoEnderecoFatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSeparator8" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbl_enderecoEntrega" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txt_codigoEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_codigoEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_logradouroEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_logradouroEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_complementoEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_complementoEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_cidadeEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_cidadeEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txt_estadoEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_paisEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_paisEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_cepEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_estadoEnderecoEntrega2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_cepEnderecoEntrega" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jSeparator9" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btn_deletarPedido" alignment="0" min="-2" pref="63" max="-2" attributes="0"/>
+                              <Component id="btn_atualizarPedido" min="-2" pref="63" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lbl_nomeCliente2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome Cliente:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_codigoCliente">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo Cliente:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_codigoEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_logradouroEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Logradouro:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_complementoEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Complemento:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_cidadeEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Cidade:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_estadoEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Estado:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_paisEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Pa&#xed;s:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_cepEnderecoFatura2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*CEP:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_codigoEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_logradouroEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Logradouro:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_complementoEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Complemento:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_cidadeEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Cidade:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_estadoEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Estado:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_paisEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*Pa&#xed;s:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_cepEnderecoEntrega2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="*CEP:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_nomeCliente">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_codigoCliente">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator7">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_codigoEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_logradouroEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_complementoEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_cidadeEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_estadoEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_paisEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_cepEnderecoFatura">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator8">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_codigoEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_logradouroEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_complementoEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_cidadeEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_estadoEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_paisEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_cepEnderecoEntrega">
+                </Component>
+                <Component class="javax.swing.JButton" name="btn_atualizarPedido">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Atualizar Pedido"/>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[73, 23]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_atualizarPedidoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_enderecoFatura">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Endere&#xe7;o da Fatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_enderecoEntrega">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Endere&#xe7;o de Entrega:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_dtPedido">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data Pedido:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_dtPedido">
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator9">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_nomeTransportadora">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome Transportadora:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_nomeTransportadora">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nome Vendedor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_nomeVendedor">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_dtEnvio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Data Envio:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_codigoPedido">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo Pedido:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_codigoPedido">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbl_codigoVendedor">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo Vendedor:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txt_codigoVendedor">
+                </Component>
+                <Component class="javax.swing.JButton" name="btn_deletarPedido">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Deletar Pedido"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_deletarPedidoActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="com.toedter.calendar.JDateChooser" name="calendar_dtEnvio">
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="calendar_dtEnvio.getDateEditor().setEnabled(false);&#xa;JTextFieldDateEditor editor_dtEnvio = (JTextFieldDateEditor) calendar_dtEnvio.getDateEditor();&#xa;editor_dtEnvio.setEditable(false);&#xa;calendar_dtEnvio.setDateFormatString(&quot;dd/MM/yyyy&quot;);"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="painel_pesquisa">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Pesquisa de Pedidos">
+                      <Font PropertyName="font" name="Tahoma" size="13" style="1"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[327, 327]"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rbtn_codigoPedido" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtn_nomeCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtn_codigoCliente" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="rbtn_codigoVendedor" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_pesquisa" alignment="0" min="-2" pref="132" max="-2" attributes="0"/>
+                              <Component id="btn_pesquisar" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="txt_pesquisa" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="rbtn_codigoCliente" min="-2" pref="23" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rbtn_nomeCliente" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rbtn_codigoPedido" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="rbtn_codigoVendedor" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btn_pesquisar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JTextField" name="txt_pesquisa">
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_codigoCliente">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="grupo_pesquisa"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo Cliente"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_nomeCliente">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="grupo_pesquisa"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Nome Cliente"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_codigoPedido">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="grupo_pesquisa"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo Pedido"/>
+                    <Property name="contentAreaFilled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="btn_pesquisar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pequisar"/>
+                    <Property name="alignmentX" type="float" value="0.5"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_pesquisarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="rbtn_codigoVendedor">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="grupo_pesquisa"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="C&#xf3;digo Vendedor"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
